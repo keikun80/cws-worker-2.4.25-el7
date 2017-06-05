@@ -14,9 +14,6 @@ OS : RHEL7, CENTOS7
  - execute .install.sh (hidden file by . (dot)
  - execute ${INSTALLED_CWS}/sbin/apachectl start
 
-~
-~
-~
-~
-~
 
+REFERENCE
+http://httpd.apache.org/docs/2.4/
