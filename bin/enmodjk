@@ -1,0 +1,46 @@
+#!/bin/bash 
+
+
+HTTPD_HOME='/opt/cws_el6/'
+CONF=${HTTPD_HOME}'conf/httpd.conf'
+SRC='Include conf/extra/httpd-modjk.conf'
+URIP=${HTTPD_HOME}'conf/modjk/uri.properties'
+WORKP=${HTTPD_HOME}'conf/modjk/workers.properties' 
+
+sed -e "s:#${SRC}:${SRC}:g" -i ${CONF}
+echo ""
+echo "Enabled mod_jk" 
+echo "please check below files"
+echo "  1. ${URIP}"
+echo "  2. ${WORKP}"
+
+echo ""
+echo -e -n "Would you like edit uri.properties?[Y/n] "
+read ANS
+
+case ${ANS} in
+    [yY])
+		/bin/vi ${URIP}
+		;;
+	[nN])  ;;
+	*)
+		/bin/vi ${URIP}
+		;;
+esac
+
+
+echo ""
+echo -e -n "Would you like edit workers.properties?[Y/n] "
+read ANS
+
+case ${ANS} in
+    [yY])
+		/bin/vi ${WORKP}
+		;;
+	[nN])  ;;
+	*) 
+		/bin/vi ${WORKP}
+		;;
+esac 
+
+echo ""
