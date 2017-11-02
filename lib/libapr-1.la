@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/opt/cws-worker-2.4.25-el7/lib'
+libdir='/opt/cws-worker-2.4.25/lib'

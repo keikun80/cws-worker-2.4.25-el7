@@ -19,9 +19,9 @@
 # This file is generated from envvars-std.in
 #
 if test "x$LD_LIBRARY_PATH" != "x" ; then
-  LD_LIBRARY_PATH="/opt/cws-worker-2.4.25-el7/lib:$LD_LIBRARY_PATH"
+  LD_LIBRARY_PATH="/opt/cws-worker-2.4.25/lib:$LD_LIBRARY_PATH"
 else
-  LD_LIBRARY_PATH="/opt/cws-worker-2.4.25-el7/lib"
+  LD_LIBRARY_PATH="/opt/cws-worker-2.4.25/lib"
 fi
 export LD_LIBRARY_PATH
 #

@@ -227,7 +227,7 @@
 #define HAVE_UNISTD_H 1
 
 /* Root directory of the Apache install area */
-#define HTTPD_ROOT "/opt/cws-worker-2.4.25-el7"
+#define HTTPD_ROOT "/opt/cws-worker-2.4.25"
 
 /* Define to the address where bug reports for this package should be sent. */
 #define PACKAGE_BUGREPORT ""

@@ -1,6 +1,6 @@
 # Package Information for pkg-config
 
-prefix=/opt/cws-worker-2.4.25-el7/pcre
+prefix=/opt/cws-worker-2.4.25/pcre
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

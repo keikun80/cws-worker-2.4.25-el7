@@ -1,6 +1,6 @@
 #!/bin/sh
 
-prefix=/opt/cws-worker-2.4.25-el7/pcre
+prefix=/opt/cws-worker-2.4.25/pcre
 exec_prefix=${prefix}
 exec_prefix_set=no
 

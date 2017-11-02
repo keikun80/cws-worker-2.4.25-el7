@@ -24,9 +24,9 @@
 #
 # Configuration variables
 #
-apr_builddir=/opt/cws-worker-2.4.25-el7/build
-apr_builders=/opt/cws-worker-2.4.25-el7/build
-top_builddir=/opt/cws-worker-2.4.25-el7/build
+apr_builddir=/opt/cws-worker-2.4.25/build
+apr_builders=/opt/cws-worker-2.4.25/build
+top_builddir=/opt/cws-worker-2.4.25/build
 
 # Some layouts require knowing what version we are at.
 APR_MAJOR_VERSION=1

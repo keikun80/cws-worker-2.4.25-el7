@@ -3,8 +3,8 @@
 # Created by configure
 
 "./configure" \
-"--prefix=/opt/cws-worker-2.4.25-el7" \
-"--sbindir=/opt/cws-worker-2.4.25-el7/sbin" \
+"--prefix=/opt/cws-worker-2.4.25" \
+"--sbindir=/opt/cws-worker-2.4.25/sbin" \
 "--enable-static-support" \
 "--enable-static-htpasswd" \
 "--enable-static-htdigest" \
@@ -30,5 +30,5 @@
 "--enable-modules=all" \
 "--enable-shared-modules=all" \
 "--with-mpm=worker" \
-"--with-pcre=/opt/cws-worker-2.4.25-el7/pcre" \
+"--with-pcre=/opt/cws-worker-2.4.25/pcre" \
 "$@"

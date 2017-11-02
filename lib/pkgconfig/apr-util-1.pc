@@ -1,8 +1,8 @@
-prefix=/opt/cws-worker-2.4.25-el7
-exec_prefix=/opt/cws-worker-2.4.25-el7
+prefix=/opt/cws-worker-2.4.25
+exec_prefix=/opt/cws-worker-2.4.25
 libdir=${prefix}/lib
 APRUTIL_MAJOR_VERSION=1
-includedir=/opt/cws-worker-2.4.25-el7/include
+includedir=/opt/cws-worker-2.4.25/include
 
 Name: APR Utils
 Description: Companion library for APR
