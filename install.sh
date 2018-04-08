@@ -6,13 +6,12 @@ APACHE_USER="daemon"
 VERSION=`cat version`
 _front()
 {
-    TITLE="CHLUX APACHE INSTALLER"
+    TITLE="COMMUNITY APACHE INSTALLER"
     clear
     eval printf %.0s\# '{1..'${COLUMNS:-$(tput cols)}'}'; echo    
     echo "" 
     printf "%*s\n" $(((${#TITLE}+$(tput cols))/2)) "$TITLE"
     echo  " Version : ${VERSION} (CWS-WORKER-2.4.25)" 
-    echo  " Author  : Chlux Co,Ltd."
     echo  " Release : 07. Dec. 2017" 
     echo  " Package : pcre-0.8, apache-httpd-2.4.25, apr-1.5.2, apr-util-1.5.4 , mod_jk-1.2.42" 
     echo  " Requirement : Root Permission (Installation)"
